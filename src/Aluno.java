@@ -1,0 +1,24 @@
+public class Aluno {
+    private String nome;
+    private int matricula;
+    private double nota1, nota2;
+
+    public Aluno(String nome, int matricula, double nota1, double nota2){
+        this.nome = nome;
+        this.matricula = matricula;
+        this.nota1 = nota1;
+        this.nota2 = nota2;
+    }
+    public double calcularMedia(){
+        return (nota1 + nota2) / 2;
+    }
+
+    public String getSituacao(){
+        double media = calcularMedia();
+        if (media >=7.0) return "Aprovado";
+        if (media >=5.0) return "Recuperação";
+        return "Reprovado";
+    }
+    public String getNome(){return nome;}
+    public int getMatricula(){return matricula;}
+}
