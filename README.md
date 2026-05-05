@@ -18,11 +18,12 @@ O sistema permite cadastrar alunos com nome, matrícula e duas notas, calcular a
 ```
 ## 🔍 Funcionalidades
 
-- [x] Cadastrar aluno (nome, matrícula, nota 1 e nota 2)
+- [x] Cadastrar aluno (nome, matrícula, nota 1, nota 2 e nota 3)
 - [x] Listar todos os alunos com média e situação formatados em tabela
 - [x] Buscar aluno por nome (busca parcial, sem case-sensitive)
+- [x] Buscar aluno por matricula
 - [x] Validação de capacidade máxima do array
-- [x] Cálculo automático de média e situação
+- [x] Cálculo automático de média, situação e média de faltas
 
 ---
 Exemplo de saída
