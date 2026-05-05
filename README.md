@@ -13,6 +13,7 @@ O sistema permite cadastrar alunos com nome, matrícula e duas notas, calcular a
 1 - Cadastrar aluno
 2 - Listar todos
 3 - Buscar por nome
+4 - Buscar por matricula
 0 - Sair
 ```
 ## 🔍 Funcionalidades
@@ -29,9 +30,9 @@ Exemplo de saída
 ```
 Idx   Nome                 Matrícula    Média    Situação
 -------------------------------------------------------
-[0 ] Ana Souza             1001         8.5      Aprovado
-[1 ] Bruno Lima            1002         5.8      Recuperação
-[2 ] Carla Melo            1003         3.8      Reprovado
+[1 ] Ana Souza             1001         8.5      Aprovado
+[2 ] Bruno Lima            1002         5.8      Recuperação
+[3 ] Carla Melo            1003         3.8      Reprovado
 ```
 ## 🧠 Conceitos praticados
  
